@@ -62,16 +62,16 @@ def check_team(event=None):
 
     elif section == "Ruby":
         display("ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ! ʏᴏᴜ ᴀʀᴇ ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ʙʟᴜᴇ ʙᴇᴀʀꜱ ᵎᵎ (≧∇≦)", target="output")
-        image.innerHTML = "<img src='blue_bears.jpg' width='350'>"
+        image.innerHTML = "<img src='blue_bears.jpg' width='250'>"
 
     elif section == "Sapphire":
         display("ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ! ʏᴏᴜ ᴀʀᴇ ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ʀᴇᴅ ʙᴜʟʟᴅᴏɢꜱ ᵎᵎ (≧∇≦)", target="output")
-        image.innerHTML = "<img src='red_bulldogs.jpg' width='350'>"
+        image.innerHTML = "<img src='red_bulldogs.jpg' width='250'>"
 
     elif section == "Emerald":
         display("Congratulations! You are part of the Green Hornets ᵎᵎ (≧∇≦)", target="output")
-        image.innerHTML = "<img src='green_hornets.jpg' width='350'>"
+        image.innerHTML = "<img src='green_hornets.jpg' width='250'>"
 
     else: 
         display("Congratulations! You are part of the Yellow Tigers ᵎᵎ (≧∇≦)", target="output")
-        image.innerHTML = "<img src='yellow_tigers.jpg' width='350'>"
+        image.innerHTML = "<img src='yellow_tigers.jpg' width='250'>"
