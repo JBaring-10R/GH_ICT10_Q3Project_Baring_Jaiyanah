@@ -95,22 +95,19 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     padding: 12px 20px;
     max-width: 900px;
-    margin: 0 auto 30px auto; /* perfectly centered */
+    margin: 0 auto 30px auto;
 }
 
-/* Brand title */
 .navbar-brand {
     font-size: 20px;
     font-weight: bold;
     color: #101010 !important;
 }
 
-/* Remove default toggle border */
 .navbar-toggler {
     border: none;
 }
 
-/* Navbar links */
 .nav-link {
     color: #212529 !important;
     font-weight: 500;
@@ -119,7 +116,6 @@ button:hover {
     transition: 0.3s ease;
 }
 
-/* Smooth underline hover effect */
 .nav-link::after {
     content: "";
     position: absolute;
@@ -135,12 +131,10 @@ button:hover {
     width: 100%;
 }
 
-/* Active page highlight */
 .nav-link.active::after {
     width: 100%;
 }
 
-/* Mobile alignment */
 @media (max-width: 991px) {
     .navbar-nav {
         margin-top: 10px;
