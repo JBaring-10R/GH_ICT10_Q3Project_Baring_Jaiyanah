@@ -62,7 +62,7 @@ def check_team(event=None):
 
     elif section == "Ruby":
         display("ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ! ʏᴏᴜ ᴀʀᴇ ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ʙʟᴜᴇ ʙᴇᴀʀꜱ ᵎᵎ (≧∇≦)", target="output")
-        image.innerHTML = "<img src='blue_bears.jpg' width='250' style="border: 4px solid #000000; border-radius: 15px;">
+        image.innerHTML = "<img src='blue_bears.jpg' width='250'">
 
     elif section == "Sapphire":
         display("ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ! ʏᴏᴜ ᴀʀᴇ ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ʀᴇᴅ ʙᴜʟʟᴅᴏɢꜱ ᵎᵎ (≧∇≦)", target="output")
